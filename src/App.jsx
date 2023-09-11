@@ -33,8 +33,8 @@ function App() {
         </button>
       </form>
       <article className="lorem-text">
-        {text.map((item, idx) => {
-          return <p key={idx}>{item}</p>;
+        {text.map((item) => {
+          return <p key={crypto.randomUUID()}>{item}</p>;
         })}
       </article>
     </section>
