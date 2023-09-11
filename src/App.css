@@ -1,0 +1,42 @@
+.section-center {
+  width: 80vw;
+  max-width: 40rem;
+  margin: 10rem auto;
+}
+.section-center h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.lorem-form {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-block: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+}
+
+.lorem-form label {
+  font-size: 1.25rem;
+}
+
+.lorem-form input {
+  padding: 0.25rem 0.5rem;
+  width: 4rem;
+  border-radius: 0.25rem;
+  border-color: transparent;
+  background: rgba(222, 220, 220, 0.795);
+  font-size: 1.25rem;
+}
+.lorem-form .btn {
+ align-self: stretch;
+}
+
+.lorem-text p {
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+
